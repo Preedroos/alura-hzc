@@ -1,0 +1,37 @@
+:root {
+  --body: #1D232A;
+  --header: #15191C;
+  --mobile-header: #15191C;
+  --side-menu: #15191C;
+  --card: #2C343A;
+  --text: white;
+  --alt-text: #95999C;
+  --link: #0480DC;
+  --button: #0480DC;
+  --shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+}
+
+body {
+  background-color: var(--body);
+  font-family: 'Open Sans', sans-serif;
+  color: var(--text);
+}
+
+/*==================== HEADER ====================*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--header);
+  padding: 8px 16px;
+  box-shadow: var(--shadow);
+}
+
+header button {
+  width: 24px;
+}
+
+header .header-logo {
+  width: 40px;
+}
