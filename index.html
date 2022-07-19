@@ -21,9 +21,127 @@
   </head>
   <body>
     <header>
-      <button class="header-menu">menu</button>
-      <img src="./assets/img/logo.svg" alt="Logotipo da HZC" class="header-logo"/>
-      <button class="header-hint">notificação</button>
+      <button id="iconMenu" class="icon-menu" aria-label="Menu"><i></i></button>
+      <img src="./assets/img/logo.svg" alt="Logotipo da HZC" class="logo" />
+      <button id="iconBell" class="icon-bell" aria-label="Notificação">
+        <i></i>
+      </button>
     </header>
+    <div id="sideMenu" class="side-menu">
+      <img src="./assets/img/logo.svg" alt="Logotipo da HZC" class="logo" />
+      <a href="" class="link-inicio">Início</a>
+      <a href="" class="link-videos">Vídeos</a>
+      <a href="" class="link-picos">Picos</a>
+      <a href="" class="link-integrantes">Integrantes</a>
+      <a href="" class="link-camisas">Camisas</a>
+      <a href="" class="link-pinturas">Pinturas</a>
+    </div>
+
+    <main>
+      <h2>Início</h2>
+      <section class="videos">
+        <article class="card highlight">
+          <img src="./assets/img/banner-mobile_1.png" alt="">
+          <div class="card-content">
+            <p class="content-highlight">Vídeo em destaque</p>
+            <h3 class="content-tittle">HZC - Life is... / 2022</h3>
+            <p class="content-author">Bruno Lopes</p>
+            <p class="content-time"> 33 minutos</p>
+            <p class="content-views"> 53 visualizações</p>
+            <button><span></span> Assistir agora</button>
+          </div>
+        </article>
+        <h3>Vídeos mais vistos</h2>
+        <article class="card">
+          <img src="./assets/img/video_1.png" alt="">
+          <div class="card-content">
+            <p class="content-author">André Soares</p>
+            <h3 class="content-tittle">HZC - Tudo sem Padrin</h3>
+            <p class="content-time"> 33 minutos</p>
+            <button><span></span></button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="./assets/img/video_2.png" alt="">
+          <div class="card-content">
+            <p class="content-author">Bruno Lopes</p>
+            <h3 class="content-tittle">HZC - Enter The Hu-flez</h3>
+            <p class="content-time"> 33 minutos</p>
+            <button><span></span></button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="./assets/img/video_3.png" alt="">
+          <div class="card-content">
+            <p class="content-author">Luiza Sampaio</p>
+            <h3 class="content-tittle">HZC - Vol.3</h3>
+            <p class="content-time"> 33 minutos</p>
+            <button><span></span></button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="./assets/img/video_4.png" alt="">
+          <div class="card-content">
+            <p class="content-author">Bruno Lopes</p>
+            <h3 class="content-tittle">HZC - Love Machine</h3>
+            <p class="content-time"> 33 minutos</p>
+            <button><span></span></button>
+          </div>
+        </article>
+      </section>
+
+      <section class="clothes">
+        <article class="card highlight">
+          <img src="./assets/img/banner-mobile_2.png" alt="">
+          <div class="card-content">
+            <p class="content-highlight">Nova arte</p>
+            <h3 class="content-tittle">Only Zikas - Lagoa Dompa Club</h3>
+            <p class="content-author">Bruno Lopes</p>
+            <p class="content-value"> 33,33</p>
+            <p class="content-views"> 53 visualizações</p>
+            <button><span></span> Comprar agora</button>
+          </div>
+        </article>
+        <h3>Camisas mais recentes</h3>
+        <article class="card">
+          <img src="./assets/img/produto_1.png" alt="">
+          <div class="card-content">
+            <p class="content-author">André Soares</p>
+            <h3 class="content-tittle">IBM</h3>
+            <p class="content-value"> 33,33</p>
+            <button><span></span></button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="./assets/img/produto_2.png" alt="">
+          <div class="card-content">
+            <p class="content-author">Bruno Lopes</p>
+            <h3 class="content-tittle">Huflez Crew Philosophy Club</h3>
+            <p class="content-value"> 33,33</p>
+            <button><span></span></button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="./assets/img/produto_3.png" alt="">
+          <div class="card-content">
+            <p class="content-author">Luiza Sampaio</p>
+            <h3 class="content-tittle">Corujita noturna</h3>
+            <p class="content-value"> 33,33</p>
+            <button><span></span></button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="./assets/img/produto_4.png" alt="">
+          <div class="card-content">
+            <p class="content-author">Bruno Lopes</p>
+            <h3 class="content-tittle">GGG - Gatin G Gorro</h3>
+            <p class="content-value"> 33,33</p>
+            <button><span></span></button>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <script src="./index.js"></script>
   </body>
 </html>
