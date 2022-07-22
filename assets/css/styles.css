@@ -103,6 +103,105 @@ header .icon-bell i::before {
   content: '\e90a';
 }
 
+/*==================== CARDS ====================*/
+
+main {
+  padding: 24px 16px;
+}
+
+main h3 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.clothes {
+  margin-block: 16px;
+}
+
+.card {
+  max-width: 400px;
+  background-color: var(--card);
+  border-radius: 16px;
+}
+
+.card.highlight {
+  margin-block: 16px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card-content {
+  padding: 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.content-highlight {
+  grid-column: span 2;
+  font-size: 16px;
+}
+
+.content-tittle {
+  grid-column: span 2;
+  font-size: 18px;
+}
+
+.content-author {
+  grid-column: span 2;
+  color: var(--alt-text);
+  font-size: 14px;
+}
+
+.content-time {
+  color: var(--alt-text);
+  font-size: 14px;
+}
+
+.content-time::before {
+  content: '\e90c';
+}
+
+.content-views {
+  color: var(--alt-text);
+  font-size: 14px;
+}
+
+.content-views::before {
+  content: '\e90f';
+}
+
+.card.highlight button {
+  grid-column: span 2;
+  color: var(--text);
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 16px;
+  gap: 10px;
+}
+
+.card button {
+  background-color: var(--link);
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.card-content span::before {
+  content: '\e90b';
+  font-size: 20px;
+}
+
 /*==================== STATES ====================*/
 
 .active {
